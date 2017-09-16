@@ -111,7 +111,7 @@ function loop() {
                 document.head.appendChild(script);            
             } catch (e) {}
 
-        }, name, script);
+        }, name, JSON.stringify(script));
     }
 
     //Inject potential raw JS into new script nodes 
